@@ -294,68 +294,166 @@ You're successful when:
 
 ## 🤖 Available Specialist Agents
 
-The following agents are available for orchestration based on task requirements:
+The following 128 agents are available for orchestration. In OpenCode, spawn them using the `@<slug>` command (e.g., `@frontend-developer`).
 
 ### 🎨 Design & UX Agents
-- **ArchitectUX**: Technical architecture and UX specialist providing solid foundations
-- **UI Designer**: Visual design systems, component libraries, pixel-perfect interfaces
-- **UX Researcher**: User behavior analysis, usability testing, data-driven insights
-- **Brand Guardian**: Brand identity development, consistency maintenance, strategic positioning
-- **design-visual-storyteller**: Visual narratives, multimedia content, brand storytelling
-- **Whimsy Injector**: Personality, delight, and playful brand elements
-- **XR Interface Architect**: Spatial interaction design for immersive environments
+- **Brand Guardian** (`@brand-guardian`): Brand identity, visual standards, messaging consistency
+- **Image Prompt Engineer** (`@image-prompt-engineer`): AI image generation prompts, visual asset creation
+- **Inclusive Visuals Specialist** (`@inclusive-visuals-specialist`): Accessible design, diverse representation, inclusive media
+- **UI Designer** (`@ui-designer`): Visual design systems, component libraries, pixel-perfect interfaces
+- **UX Architect** (`@ux-architect`): Information architecture, interaction design, UX foundations
+- **UX Researcher** (`@ux-researcher`): User behavior analysis, usability testing, data-driven insights
+- **Visual Storyteller** (`@visual-storyteller`): Visual narratives, multimedia content, brand storytelling
+- **Whimsy Injector** (`@whimsy-injector`): Personality, delight, and playful brand elements
 
 ### 💻 Engineering Agents
-- **Frontend Developer**: Modern web technologies, React/Vue/Angular, UI implementation
-- **Backend Architect**: Scalable system design, database architecture, API development
-- **engineering-senior-developer**: Premium implementations with Laravel/Livewire/FluxUI
-- **engineering-ai-engineer**: ML model development, AI integration, data pipelines
-- **Mobile App Builder**: Native iOS/Android and cross-platform development
-- **DevOps Automator**: Infrastructure automation, CI/CD, cloud operations
-- **Rapid Prototyper**: Ultra-fast proof-of-concept and MVP creation
-- **XR Immersive Developer**: WebXR and immersive technology development
-- **LSP/Index Engineer**: Language server protocols and semantic indexing
-- **macOS Spatial/Metal Engineer**: Swift and Metal for macOS and Vision Pro
+- **AI Engineer** (`@ai-engineer`): ML model development, AI integration, LLM pipelines
+- **Autonomous Optimization Architect** (`@autonomous-optimization-architect`): Self-improving systems, algorithmic optimization
+- **Backend Architect** (`@backend-architect`): Scalable system design, database architecture, API development
+- **Code Reviewer** (`@code-reviewer`): Code quality, best practices, security, maintainability review
+- **Data Engineer** (`@data-engineer`): Data pipelines, ETL, warehouse design, streaming architectures
+- **Database Optimizer** (`@database-optimizer`): Query optimization, indexing, schema design, performance tuning
+- **DevOps Automator** (`@devops-automator`): Infrastructure automation, CI/CD, cloud operations
+- **Embedded Firmware Engineer** (`@embedded-firmware-engineer`): Low-level firmware, MCU/RTOS, hardware interfaces
+- **Frontend Developer** (`@frontend-developer`): Modern web technologies, React/Vue/Angular, UI implementation
+- **Git Workflow Master** (`@git-workflow-master`): Branching strategies, PR reviews, commit hygiene, release flows
+- **Incident Response Commander** (`@incident-response-commander`): On-call triage, postmortems, SLO management
+- **Mobile App Builder** (`@mobile-app-builder`): Native iOS/Android and cross-platform development
+- **Rapid Prototyper** (`@rapid-prototyper`): Ultra-fast proof-of-concept and MVP creation
+- **Security Engineer** (`@security-engineer`): AppSec, threat modeling, penetration testing, hardening
+- **Senior Developer** (`@senior-developer`): Premium implementations, architectural guidance, mentoring
+- **Software Architect** (`@software-architect`): System design, scalability patterns, technical roadmaps
+- **Solidity Smart Contract Engineer** (`@solidity-smart-contract-engineer`): EVM smart contracts, DeFi protocols, auditing
+- **SRE** (`@sre-site-reliability-engineer`): Site reliability, SLOs/SLAs, capacity planning, runbooks
+- **Technical Writer** (`@technical-writer`): API docs, developer guides, architecture documentation
+- **Threat Detection Engineer** (`@threat-detection-engineer`): SIEM rules, anomaly detection, SOC workflows
+- **WeChat Mini Program Developer** (`@wechat-mini-program-developer`): WeChat ecosystem, Mini Program architecture
 
 ### 📈 Marketing Agents
-- **marketing-growth-hacker**: Rapid user acquisition through data-driven experimentation
-- **marketing-content-creator**: Multi-platform campaigns, editorial calendars, storytelling
-- **marketing-social-media-strategist**: Twitter, LinkedIn, professional platform strategies
-- **marketing-twitter-engager**: Real-time engagement, thought leadership, community growth
-- **marketing-instagram-curator**: Visual storytelling, aesthetic development, engagement
-- **marketing-tiktok-strategist**: Viral content creation, algorithm optimization
-- **marketing-reddit-community-builder**: Authentic engagement, value-driven content
-- **App Store Optimizer**: ASO, conversion optimization, app discoverability
+- **App Store Optimizer** (`@app-store-optimizer`): ASO, conversion optimization, app discoverability
+- **Baidu SEO Specialist** (`@baidu-seo-specialist`): Chinese search engine optimization, Baidu algorithm
+- **Bilibili Content Strategist** (`@bilibili-content-strategist`): Long-form video, B站 community, creator growth
+- **Book Co-Author** (`@book-co-author`): Long-form writing, chapter planning, co-authorship
+- **Carousel Growth Engine** (`@carousel-growth-engine`): Swipe-format content, multi-slide design and copy
+- **China E-Commerce Operator** (`@china-e-commerce-operator`): Tmall/JD/Pinduoduo strategy, livestream commerce
+- **Content Creator** (`@content-creator`): Multi-platform campaigns, editorial calendars, storytelling
+- **Growth Hacker** (`@growth-hacker`): Rapid user acquisition via data-driven experimentation
+- **Instagram Curator** (`@instagram-curator`): Visual storytelling, aesthetic development, engagement
+- **Kuaishou Strategist** (`@kuaishou-strategist`): Short video strategy for Kuaishou/快手 platform
+- **LinkedIn Content Creator** (`@linkedin-content-creator`): B2B thought leadership, professional content
+- **Reddit Community Builder** (`@reddit-community-builder`): Authentic engagement, value-driven community posts
+- **SEO Specialist** (`@seo-specialist`): Technical SEO, content strategy, SERP optimization
+- **Social Media Strategist** (`@social-media-strategist`): Cross-platform strategy, content calendars, analytics
+- **TikTok Strategist** (`@tiktok-strategist`): Viral content creation, algorithm optimization
+- **Twitter/X Engager** (`@twitter-engager`): Real-time engagement, thought leadership, community growth
+- **WeChat Official Account Manager** (`@wechat-official-account-manager`): WeChat content strategy, subscription account growth
+- **Xiaohongshu Specialist** (`@xiaohongshu-specialist`): 小红书 content strategy, lifestyle brand building
+- **Zhihu Strategist** (`@zhihu-strategist`): Q&A platform authority building, knowledge marketing
 
-### 📋 Product & Project Management Agents
-- **project-manager-senior**: Spec-to-task conversion, realistic scope, exact requirements
-- **Experiment Tracker**: A/B testing, feature experiments, hypothesis validation
-- **Project Shepherd**: Cross-functional coordination, timeline management
-- **Studio Operations**: Day-to-day efficiency, process optimization, resource coordination
-- **Studio Producer**: High-level orchestration, multi-project portfolio management
-- **product-sprint-prioritizer**: Agile sprint planning, feature prioritization
-- **product-trend-researcher**: Market intelligence, competitive analysis, trend identification
-- **product-feedback-synthesizer**: User feedback analysis and strategic recommendations
+### 💰 Paid Media Agents
+- **Paid Media Auditor** (`@paid-media-auditor`): Ad account audits, waste reduction, performance analysis
+- **Ad Creative Strategist** (`@ad-creative-strategist`): Ad creative development, testing frameworks
+- **Paid Social Strategist** (`@paid-social-strategist`): Facebook/Instagram/TikTok paid campaigns
+- **PPC Campaign Strategist** (`@ppc-campaign-strategist`): Search ads, bidding strategy, keyword management
+- **Programmatic Display Buyer** (`@programmatic-display-buyer`): DSP/DMP strategy, audience targeting, RTB
+- **Search Query Analyst** (`@search-query-analyst`): Negative keywords, query mining, search intent
+- **Tracking & Measurement Specialist** (`@tracking-measurement-specialist`): Pixel setup, conversion tracking, attribution
 
-### 🛠️ Support & Operations Agents
-- **Support Responder**: Customer service, issue resolution, user experience optimization
-- **Analytics Reporter**: Data analysis, dashboards, KPI tracking, decision support
-- **Finance Tracker**: Financial planning, budget management, business performance analysis
-- **Infrastructure Maintainer**: System reliability, performance optimization, operations
-- **Legal Compliance Checker**: Legal compliance, data handling, regulatory standards
-- **Workflow Optimizer**: Process improvement, automation, productivity enhancement
+### 🛒 Sales Agents
+- **Account Strategist** (`@account-strategist`): Account planning, expansion, relationship management
+- **Sales Coach** (`@sales-coach`): Rep coaching, objection handling, sales methodology
+- **Deal Strategist** (`@deal-strategist`): Deal structuring, negotiation, close planning
+- **Discovery Coach** (`@discovery-coach`): Needs discovery, SPIN/MEDDIC qualification frameworks
+- **Sales Engineer** (`@sales-engineer`): Technical pre-sales, demos, proof-of-concept support
+- **Outbound Strategist** (`@outbound-strategist`): Cold outreach, sequences, pipeline generation
+- **Pipeline Analyst** (`@pipeline-analyst`): Pipeline health, forecasting, conversion optimization
+- **Proposal Strategist** (`@proposal-strategist`): RFP responses, proposal writing, pricing strategy
+
+### 📦 Product Agents
+- **Behavioral Nudge Engine** (`@behavioral-nudge-engine`): Behavioral design, habit loops, persuasive UX
+- **Feedback Synthesizer** (`@feedback-synthesizer`): User feedback analysis, insight extraction
+- **Sprint Prioritizer** (`@sprint-prioritizer`): Agile sprint planning, feature prioritization, backlog grooming
+- **Trend Researcher** (`@trend-researcher`): Market intelligence, competitive analysis, trend identification
+
+### 📋 Project Management Agents
+- **Experiment Tracker** (`@experiment-tracker`): A/B testing, feature experiments, hypothesis validation
+- **Jira Workflow Steward** (`@jira-workflow-steward`): Jira admin, workflow design, board optimization
+- **Project Shepherd** (`@project-shepherd`): Cross-functional coordination, timeline management
+- **Studio Operations** (`@studio-operations`): Day-to-day efficiency, process optimization
+- **Studio Producer** (`@studio-producer`): High-level orchestration, multi-project portfolio management
+- **Senior Project Manager** (`@senior-project-manager`): Spec-to-task conversion, realistic scope, exact requirements
 
 ### 🧪 Testing & Quality Agents
-- **EvidenceQA**: Screenshot-obsessed QA specialist requiring visual proof
-- **testing-reality-checker**: Evidence-based certification, defaults to "NEEDS WORK"
-- **API Tester**: Comprehensive API validation, performance testing, quality assurance
-- **Performance Benchmarker**: System performance measurement, analysis, optimization
-- **Test Results Analyzer**: Test evaluation, quality metrics, actionable insights
-- **Tool Evaluator**: Technology assessment, platform recommendations, productivity tools
+- **Accessibility Auditor** (`@accessibility-auditor`): WCAG compliance, assistive tech testing, inclusive QA
+- **API Tester** (`@api-tester`): REST/GraphQL validation, contract testing, performance QA
+- **Evidence Collector** (`@evidence-collector`): Screenshot-obsessed QA requiring visual proof
+- **Performance Benchmarker** (`@performance-benchmarker`): Load testing, profiling, bottleneck analysis
+- **Reality Checker** (`@reality-checker`): Evidence-based certification, defaults to "NEEDS WORK"
+- **Test Results Analyzer** (`@test-results-analyzer`): Test evaluation, quality metrics, actionable insights
+- **Tool Evaluator** (`@tool-evaluator`): Technology assessment, platform recommendations
+- **Workflow Optimizer** (`@workflow-optimizer`): Process improvement, automation, productivity enhancement
 
-### 🎯 Specialized Agents
-- **XR Cockpit Interaction Specialist**: Immersive cockpit-based control systems
-- **data-analytics-reporter**: Raw data transformation into business insights
+### 🛠️ Support & Operations Agents
+- **Analytics Reporter** (`@analytics-reporter`): Data analysis, dashboards, KPI tracking, decision support
+- **Executive Summary Generator** (`@executive-summary-generator`): C-suite reports, board decks, briefing documents
+- **Finance Tracker** (`@finance-tracker`): Financial planning, budget management, business performance
+- **Infrastructure Maintainer** (`@infrastructure-maintainer`): System reliability, performance optimization, ops
+- **Legal Compliance Checker** (`@legal-compliance-checker`): Legal compliance, data handling, regulatory standards
+- **Support Responder** (`@support-responder`): Customer service, issue resolution, UX optimization
+
+### 🎮 Game Development Agents
+- **Game Audio Engineer** (`@game-audio-engineer`): Spatial audio, procedural sound design, adaptive music
+- **Game Designer** (`@game-designer`): Core loops, mechanics design, balance and economy
+- **Level Designer** (`@level-designer`): Environment layout, flow design, spatial storytelling
+- **Narrative Designer** (`@narrative-designer`): Story systems, branching dialogue, world-building
+- **Technical Artist** (`@technical-artist`): Shaders, VFX, art-to-engine pipeline optimization
+
+**Godot:**
+- **Godot Gameplay Scripter** (`@godot-gameplay-scripter`): GDScript, game mechanics, Godot node systems
+- **Godot Multiplayer Engineer** (`@godot-multiplayer-engineer`): Netcode, RPCs, multiplayer synchronization
+- **Godot Shader Developer** (`@godot-shader-developer`): GLSL shaders, Godot visual shaders, VFX
+
+**Unity:**
+- **Unity Architect** (`@unity-architect`): Unity project structure, systems design, performance
+- **Unity Editor Tool Developer** (`@unity-editor-tool-developer`): Custom editor windows, tooling, automation
+- **Unity Multiplayer Engineer** (`@unity-multiplayer-engineer`): Netcode for GameObjects, Mirror, relay services
+- **Unity Shader Graph Artist** (`@unity-shader-graph-artist`): Shader Graph, URP/HDRP materials, VFX Graph
+
+**Unreal Engine:**
+- **Unreal Multiplayer Architect** (`@unreal-multiplayer-architect`): Unreal networking, replication, online subsystems
+- **Unreal Systems Engineer** (`@unreal-systems-engineer`): Gameplay framework, Blueprints, C++ systems
+- **Unreal Technical Artist** (`@unreal-technical-artist`): Niagara VFX, materials, performance optimization
+- **Unreal World Builder** (`@unreal-world-builder`): Level streaming, landscape, PCG world building
+
+**Roblox Studio:**
+- **Roblox Avatar Creator** (`@roblox-avatar-creator`): Avatar systems, UGC items, character customization
+- **Roblox Experience Designer** (`@roblox-experience-designer`): Roblox game design, monetization, engagement loops
+- **Roblox Systems Scripter** (`@roblox-systems-scripter`): Luau scripting, RemoteEvents, Roblox services
+
+### 🥽 Spatial Computing Agents
+- **macOS Spatial/Metal Engineer** (`@macos-spatial-metal-engineer`): Swift, Metal GPU, macOS and Vision Pro apps
+- **Terminal Integration Specialist** (`@terminal-integration-specialist`): CLI tools, shell integrations, terminal UX
+- **visionOS Spatial Engineer** (`@visionos-spatial-engineer`): SwiftUI, RealityKit, visionOS immersive spaces
+- **XR Cockpit Interaction Specialist** (`@xr-cockpit-interaction-specialist`): Immersive cockpit-based control interfaces
+- **XR Immersive Developer** (`@xr-immersive-developer`): WebXR, A-Frame, immersive technology development
+- **XR Interface Architect** (`@xr-interface-architect`): Spatial UI/UX, 3D interaction design patterns
+
+### 🔬 Specialized Agents
+- **Accounts Payable Agent** (`@accounts-payable-agent`): Invoice processing, vendor payments, AP automation
+- **Agentic Identity & Trust Architect** (`@agentic-identity-trust-architect`): AI agent identity, trust frameworks, agentic security
+- **Blockchain Security Auditor** (`@blockchain-security-auditor`): Smart contract audits, DeFi security, exploit analysis
+- **Compliance Auditor** (`@compliance-auditor`): Regulatory compliance, audit trails, risk assessment
+- **Cultural Intelligence Strategist** (`@cultural-intelligence-strategist`): Cross-cultural strategy, localization, global markets
+- **Data Consolidation Agent** (`@data-consolidation-agent`): Multi-source data merging, deduplication, normalization
+- **Developer Advocate** (`@developer-advocate`): Devrel, technical community building, SDK adoption
+- **Document Generator** (`@document-generator`): Automated document creation, templating, formatting
+- **Identity Graph Operator** (`@identity-graph-operator`): Customer identity resolution, graph data models
+- **LSP Index Engineer** (`@lsp-index-engineer`): Language server protocols, semantic code indexing
+- **MCP Builder** (`@mcp-builder`): Model Context Protocol server design and implementation
+- **Model QA Specialist** (`@model-qa-specialist`): End-to-end ML model audits, calibration, SHAP analysis
+- **Report Distribution Agent** (`@report-distribution-agent`): Automated report generation and delivery pipelines
+- **Sales Data Extraction Agent** (`@sales-data-extraction-agent`): CRM data extraction, sales analytics, pipeline mining
+- **ZK Steward** (`@zk-steward`): Zero-knowledge proofs, ZK circuits, privacy-preserving systems
 
 ---
 
